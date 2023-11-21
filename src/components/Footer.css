@@ -1,0 +1,104 @@
+.footer {
+  background-color: #1b1b1b;
+  padding: 20px 10px;
+}
+
+.footer-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 30%;
+}
+
+.logo img {
+  width: 100%;
+  padding: 20px 10px;
+}
+
+.contact {
+  display: flex;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #67a60c;
+  width: 50px;
+  height: 50px;
+  margin: 20px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.wp-icon,
+.instagram-icon,
+.facebook-icon {
+  color: white;
+  width: 20px;
+  height: 20px;
+}
+
+.catalogs {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-catalogs {
+  justify-content: space-between;
+}
+
+.catalogs a {
+  text-decoration: none;
+  color: gray;
+  font-size: 0.9rem;
+}
+
+.catalogs a:hover {
+  color: #67a60c;
+}
+
+span {
+  color: white;
+}
+
+hr {
+  color: gray !important;
+  height: 5vh;
+}
+
+.powered-by {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.gametone-az {
+  width: 50%;
+}
+
+.gametone-az p {
+  color: white;
+}
+
+.logo-cubics {
+  align-items: center;
+  display: flex;
+  cursor: pointer;
+}
+
+.logo-cubics p {
+  color: white;
+}
+
+.logo-cubics p:hover {
+  color: #67a60c;
+}
+
+.logo-cubics img {
+  width: 30%;
+}
